@@ -1,0 +1,71 @@
+/* 
+/* 
+/*  custom.css
+/*
+/*  If not using Gulp and Sass, add your custom CSS below then include it
+/*  in your page by adding a reference to assets/css/custom.css in the head of each page.
+/*
+*/
+.btn-primary {
+    background-color: #F9D940 !important;
+    border-color: #F9D940 !important;}
+    .btn-primary:hover {
+      background-color: #f1c700 !important;
+      border-color: #e6be00 !important; }
+    .btn-primary:focus, .btn-primary.focus {
+      box-shadow: 0 0 0 0.2rem rgba(249, 217, 64, 0.5) !important; }
+    .btn-primary.disabled, .btn-primary:disabled {
+      background-color: #F9D940 !important;
+      border-color: #F9D940 !important; }
+    .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+    .show > .btn-primary.dropdown-toggle {
+      background-color: #e6be00 !important;
+      border-color: #d9b400 !important; }
+      .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+      .show > .btn-primary.dropdown-toggle:focus {
+        box-shadow: 0 0 0 0.2rem rgba(249, 217, 64, 0.5) !important; }
+
+.bg-primary-3 {
+  background-color: #1E3C64 !important; }
+
+svg.bg-primary [fill]:not([fill="none"]) {
+    fill: #F9D940 !important; }
+
+.color-p {
+    color: #F9D940;}
+    .color-p:hover {
+        color: #f1c700;}
+
+.bg-gradient.blue {
+    background: linear-gradient(to right, #225faf, #1E3C64) !important;}
+
+.btn[data-toggle="tab"][aria-selected="false"] {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-color: rgba(0, 0, 0, 0) !important;
+    color: #555A64 !important;}
+
+.btn[data-toggle="tab"][aria-selected="true"] .icon [fill]:not([fill="none"]) {
+    fill: #fff !important;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  color: #F9D940 !important;
+  border-bottom: 2px solid #F9D940 !important;
+}
+
+.nav-link.active.nrpf {
+  color: #00A19C !important;
+  border-bottom: 2px solid #00A19C !important;
+}
+.nav-link.active.qrpf {
+  color: #EC652E !important;
+  border-bottom: 2px solid #EC652E !important;
+}
+.nav-link.active.trpf {
+  color: #B9709B !important;
+  border-bottom: 2px solid #B9709B !important;
+}
+.nav-link.active.yrpf {
+  color: #E39B24 !important;
+  border-bottom: 2px solid #E39B24 !important;
+}
